@@ -98,7 +98,14 @@ public class User {
 #### Generate JAXB classes from XSD 
 ![](jaxb.png)
 
-
+#### Marshalling 
+* The process of transforming an object into its serializable version to be transmitted through the network
+#### Unmarshalling 
+* The process of transforming the serialized version of an object
+* Common marshalling tools:
+     Jackson (used for JSON)
+     Jax-B (used for XML)
+     
 #### Add Plugin in pom.xml
 ```
 <build>
